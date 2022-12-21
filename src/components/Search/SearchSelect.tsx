@@ -1,0 +1,1 @@
+import React from 'react';interface ISearchSelect {    options : string[]}function SearchSelect({options}:ISearchSelect) {    return (        <select name="search filter">            {                options.map((option)=> <option value={option} key={option}>{option}</option> )            }        </select>    );}export default SearchSelect
