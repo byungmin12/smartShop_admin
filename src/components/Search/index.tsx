@@ -1,0 +1,1 @@
+import React from 'react';import  "../../styles/Search.css"import SearchTitle from "./SearchTitle";import SearchSection from "./SearchSection";function Search() {    return (        <div className="search-wrapper">            <SearchTitle title="상품 검색" />            <SearchSection />        </div>    );}export default Search;
