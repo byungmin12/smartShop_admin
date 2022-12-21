@@ -1,0 +1,1 @@
+import React from 'react';interface ITableHeader {    fields : string[]}function TableHeader({fields}:ITableHeader) {    return (        <thead>        <tr>            {                fields.map((field)=> <th key={field}>{field}</th>)            }        </tr>        </thead>    );}export default TableHeader;
