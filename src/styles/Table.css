@@ -1,1 +1,1 @@
-.table-wrapper {    border: 1px solid #000000;    border-radius: 24px;    background-color: #fff;    width : 100%;}tbody>tr>td {    text-align: center;}.pagination {    margin: 20px 0;}.pagination>tr>th {}
+.table-wrapper {    border: 1px solid #000000;    border-radius: 24px;    background-color: #fff;    width : 100%;}tbody>tr>td {    text-align: center;}.pagination {    margin: 20px 0;}.pagination>tr>th {}.pagiNation-Wrapper> .selected{    background-color: #d3d3d3;}
