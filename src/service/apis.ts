@@ -1,0 +1,1 @@
+const apis = {    get : async(url:string) => {        const data =await fetch(url)        return data.json()    }}export default apis
