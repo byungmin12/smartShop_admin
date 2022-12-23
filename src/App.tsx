@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query"
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import Search from "./components/Search";
 import Table from "./components/Table";
 
@@ -12,8 +13,9 @@ function App() {
         <QueryClientProvider client={queryClient}>
             <div className="App">
                 <Search/>
-                <Table/>
+                <Table />
             </div>
+            <ReactQueryDevtools initialIsOpen />
         </QueryClientProvider>
 
 
