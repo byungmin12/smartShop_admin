@@ -24,6 +24,8 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
-        "react/no-array-index-key": "off"
+        "react/no-array-index-key": "off",
+        "no-param-reassign": "off",
+        "import/no-cycle" : "off"
     }
 }
