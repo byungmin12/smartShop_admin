@@ -27,4 +27,20 @@
 
 ![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/79984280/209423117-60f1dce4-3279-4e0a-b98c-d42cffb87bf3.gif)
 
+## 실행
+
+1. packages 설치
+```bash
+npm install
+```
+
+2. 웹 실행
+```bash
+npm run start
+```
+
+
+#### 참고사항
+
+1. 더미 데이터를 사용했기에 요청 URL을 환경변수로 빼지 않았습니다.
 
