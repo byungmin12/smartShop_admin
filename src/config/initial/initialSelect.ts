@@ -1,0 +1,1 @@
+export const initialFilterSelect = ["전체","상품명","브랜드","상품내용"]export const initialPageNumSelect = [10,20,50]

@@ -1,0 +1,1 @@
+import React from 'react';interface ISearchTitle {    title:string}function SearchTitle({title}:ISearchTitle) {    return (        <div><strong>{title}</strong></div>    );}export default React.memo(SearchTitle);

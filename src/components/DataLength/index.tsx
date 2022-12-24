@@ -1,0 +1,1 @@
+import React from 'react';import {useAppSelector} from "../../hooks/reduxHook";import "../../styles/DataLength.css"function DataLength() {    const dataLength = useAppSelector((state)=>state.dataLength)    return (        <div className="data-length-wrapper">            검색 데이터 : {dataLength}건        </div>    );}export default DataLength;
